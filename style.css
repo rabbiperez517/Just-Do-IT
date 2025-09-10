@@ -1,0 +1,59 @@
+.main{
+     width: 100%;
+    background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0.5) 50%
+), url("images/todo.jpg");
+
+
+    background-position:center;
+    background-size:cover;
+    height: 109vh;
+    margin: 0;
+    background-attachment: fixed;
+    position:absolute;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-top: 350px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    margin-top:5px;
+
+}
+pre.text {
+  margin-top: 0;    /* no gap above */
+  margin-bottom: 0; /* optional: remove extra below too */
+}
+
+.btn{
+    display: block;
+    width: 120px;
+    height: 40px;
+    margin: 20px auto;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.3s;
+}

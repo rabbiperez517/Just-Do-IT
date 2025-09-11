@@ -1,0 +1,194 @@
+.body{
+    background-color:white;
+    width:100%;
+    height:109vh;
+
+}
+
+h1{
+    font-size:50px;
+    margin-bottom: 0px;
+    font-family: Arial;
+    margin-top: 0px;
+}
+
+p{
+    margin-top:0px;
+    font-size:20px;
+    font-family:Arial;
+    margin-bottom: 40px;
+}
+
+.board1{
+    display: inline-block;
+    background-color:pink;
+    border-radius: 10px;
+    width:100%;
+    padding: 10px 20px;   
+    margin: 0px; 
+
+}
+
+.board1 summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;          
+    list-style: none;  
+    color:papayawhip; 
+}
+
+.board1 p, 
+.board1 button {
+    margin-top: 10px;
+    display: block;
+}
+
+.board2{
+    display: inline-block;
+    background-color:lavender;
+    border-radius: 10px;
+    width:100%;
+    padding: 10px 20px;   
+    margin: 0px; 
+    margin-top:20px;
+
+}
+
+.board2 summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;          
+    list-style: none;    
+    color:mediumorchid    
+}
+
+.board2 p, 
+.board2 button {
+    margin-top: 10px;
+    display: block;
+}
+
+.board3{
+    display: inline-block;
+    background-color:yellow;
+    border-radius: 10px;
+    width:100%;
+    padding: 10px 20px;   
+    margin: 0px; 
+    margin-top:20px;
+}
+
+.board3 summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;          
+    list-style: none;  
+    color:salmon;      
+}
+
+.board3 p, 
+.board3 button {
+    margin-top: 10px;
+    display: block;
+}
+
+.board4{
+    display: inline-block;
+    background-color:greenyellow;
+    border-radius: 10px;
+    width:100%;
+    padding: 10px 20px;   
+    margin: 0px; 
+    margin-top:20px;
+}
+
+.board4 summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;          
+    list-style: none;  
+    color:whitesmoke      
+}
+
+.board4 p, 
+.board4 button {
+    margin-top: 10px;
+    display: block;
+}
+
+.board5{
+    display: inline-block;
+    background-color:blueviolet;
+    border-radius: 10px;
+    width:100%;
+    padding: 10px 20px;   
+    margin: 0px; 
+    margin-top: 20px;
+}
+
+.board5 summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;          
+    list-style: none;  
+    color:thistle      
+}
+
+.board5 p, 
+.board5 button {
+    margin-top: 10px;
+    display: block;
+}
+
+.par{
+    font-size:10px;
+    color:white;
+    text-align: left;
+    font-family: Arial;
+    margin-top:0px;
+    margin:0px;
+}
+
+button{
+    display: block;
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover{
+    background-color: lightgrey;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+a{
+    text-decoration: none;
+}
+
+.btn{
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin: 20px auto;
+    color: black;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: px5;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
